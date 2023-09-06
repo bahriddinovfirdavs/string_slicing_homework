@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    r=s[-4:-1:1]
+    q=s[-1]
+    return r+q

@@ -5,5 +5,5 @@ def main(s):
         s(str): parameter
     Returns:
         str: answer
-    """
-    return
+    """ 
+    return s[0:4]
