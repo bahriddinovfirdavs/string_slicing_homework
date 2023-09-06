@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    r=s[-n:-1]
+    f=s[-1]
+    return r+f
