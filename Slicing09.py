@@ -6,4 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return s[0:-1:2]
+    return s[1:-1:2]+s[-1]
+

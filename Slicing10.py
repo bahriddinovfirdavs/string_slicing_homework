@@ -9,5 +9,7 @@ def main(s,n,k):
         str: answer
     """
     if n==k:
-        return s[n-1]
-    return s[n-1:k] 
+        return n or k
+    return s[n:k] 
+
+
