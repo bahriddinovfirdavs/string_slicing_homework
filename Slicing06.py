@@ -7,4 +7,5 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return s[n:-1]
+    return s[n:-1:1]+s[-1]
+print(main(str(input()),int(input())))
