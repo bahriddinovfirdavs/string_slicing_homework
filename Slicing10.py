@@ -11,3 +11,4 @@ def main(s,n,k):
     if n==k:
         return s[n-1]
     return s[n-1:k] 
+print(main(str(input()),int(input())))
