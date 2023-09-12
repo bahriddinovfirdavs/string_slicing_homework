@@ -7,5 +7,5 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return s[0:-n]
+    return s[0:len(s)-n]
 print(main("123456789",7))
